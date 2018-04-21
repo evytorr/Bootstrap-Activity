@@ -1,0 +1,29 @@
+.top {
+    background-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0500/5440/r1_junk_pizza_orange_shop_preview.png);
+    text-align: center;
+    background: linear-gradient(black);
+}
+
+.navbar-brand {
+    overflow: hidden;
+}
+
+.navbar-brand img {
+    width: 10%;
+}
+
+#addMargin {
+    margin-left: 400px;
+}
+
+
+@media (min-width: 576px) {  }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
