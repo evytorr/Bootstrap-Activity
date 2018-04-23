@@ -1,7 +1,14 @@
-.top {
-    background-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0500/5440/r1_junk_pizza_orange_shop_preview.png);
+.topSection {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://graffitiurban.com/wp-content/uploads/2018/02/black-graffiti-background-graffiti-black-and-white-background-download-free-amazing-artwork.jpg');
+    background-size: cover;
     text-align: center;
-    background: linear-gradient(black);
+    vertical-align: middle;
+    color: white;
+    height: 450px;
+}
+
+.topSection h1 {
+    padding-top: 150px;
 }
 
 .navbar-brand {
@@ -9,11 +16,15 @@
 }
 
 .navbar-brand img {
-    width: 10%;
+    width: 25%;
 }
 
 #addMargin {
-    margin-left: 400px;
+    margin-left: 600px;
+}
+
+p {
+    padding-top: 30px;
 }
 
 
