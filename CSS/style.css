@@ -1,14 +1,15 @@
 .topSection {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://graffitiurban.com/wp-content/uploads/2018/02/black-graffiti-background-graffiti-black-and-white-background-download-free-amazing-artwork.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     vertical-align: middle;
     color: white;
-    height: 450px;
+    height: 400px;
 }
 
 .topSection h1 {
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .navbar-brand {
@@ -19,22 +20,42 @@
     width: 25%;
 }
 
-#addMargin {
-    margin-left: 600px;
+#navBarLinks {
+    margin-left: 850px;
 }
 
 p {
     padding-top: 30px;
 }
 
-
-@media (min-width: 576px) {  }
-
-
-@media (min-width: 768px) {  }
+.step {
+    text-align: justify;
+}
 
 
-@media (min-width: 992px) {  }
+
+@media (min-width: 576px) { 
+    p {
+        text-align: justify;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+    p {
+        text-align: justify;
+    }
+    .headPar {
+        text-align: center;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .headPar {
+        text-align: center;
+    }
+ }
 
 
 @media (min-width: 1200px) {  }
